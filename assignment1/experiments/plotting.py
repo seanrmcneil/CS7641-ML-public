@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 
 import matplotlib as mpl
-mpl.use('agg', force=True)
 import matplotlib.pyplot as plt
 
 # Configure logging
