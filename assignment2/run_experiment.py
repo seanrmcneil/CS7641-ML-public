@@ -55,26 +55,26 @@ if __name__ == '__main__':
         #     'name': 'htru2',
         #     'readable_name': 'HTRU2',
         # },
-        {
-            'data': loader.CreditApprovalData(verbose=verbose, seed=seed),
-            'name': 'credit_approval',
-            'readable_name': 'Credit Approval',
-        },
-        {
-            'data': loader.PenDigitData(verbose=verbose, seed=seed),
-            'name': 'pen_digits',
-            'readable_name': 'Handwritten Digits',
-        }
         # {
-        #     'data': loader.SpamData(verbose=verbose, seed=seed),
-        #     'name': 'spam',
-        #     'readable_name': 'Spam',
+        #     'data': loader.CreditApprovalData(verbose=verbose, seed=seed),
+        #     'name': 'credit_approval',
+        #     'readable_name': 'Credit Approval',
         # },
         # {
-        #     'data': loader.CreditDefaultData(verbose=verbose, seed=seed),
-        #     'name': 'credit_default',
-        #     'readable_name': 'Credit Default',
+        #     'data': loader.PenDigitData(verbose=verbose, seed=seed),
+        #     'name': 'pen_digits',
+        #     'readable_name': 'Handwritten Digits',
         # }
+            {
+            'data': loader.ContraceptiveMethodChoiceData(verbose=verbose, seed=seed),
+            'name': 'cmc',
+            'readable_name': 'Contraceptive Method Choice',
+        },
+        {
+            'data': loader.SpamData(verbose=verbose, seed=seed),
+            'name': 'spam_data',
+            'readable_name': 'Spam Data',
+        }
     ]
 
     experiment_details = []

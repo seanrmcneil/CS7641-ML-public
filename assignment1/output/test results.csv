@@ -1,0 +1,1 @@
+"2019-02-09 17:32:50.119672",ANN,cmc,0.6691086691086692,"{'MLP__activation': 'relu', 'MLP__alpha': 1.0, 'MLP__hidden_layer_sizes': (42, 42), 'MLP__learning_rate_init': 0.016}"
